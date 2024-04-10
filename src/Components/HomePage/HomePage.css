@@ -42,15 +42,10 @@
 
 /* Optionally, you can hide controls */
 .video1::-webkit-media-controls,
-.video4::-webkit-media-controls,
 .video1::-webkit-media-controls-enclosure,
-.video4::-webkit-media-controls-enclosure,
 .video1::-webkit-media-controls-panel,
-.video4::-webkit-media-controls-panel,
 .video1::-webkit-media-controls-overlay-container,
-.video4::-webkit-media-controls-overlay-container,
-.video1::-webkit-media-controls-start-playback-button,
-.video4::-webkit-media-controls-start-playback-button {
+.video1::-webkit-media-controls-start-playback-button {
     display: none !important; /* Hide the media controls */
     /* pointer-events: none; */
 }
