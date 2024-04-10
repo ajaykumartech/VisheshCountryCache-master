@@ -65,7 +65,11 @@
 .service-video::-webkit-media-controls-enclosure,
 .service-video2::-webkit-media-controls-enclosure,
 .service-video::-webkit-media-controls-panel,
-.service-video2::-webkit-media-controls-panel {
+.service-video2::-webkit-media-controls-panel,
+.service-video::-webkit-media-controls-overlay-container,
+.service-video2::-webkit-media-controls-overlay-container,
+.service-video::-webkit-media-controls-start-playback-button,
+.service-video2::-webkit-media-controls-start-playback-button  {
     display: none !important;
 }
 

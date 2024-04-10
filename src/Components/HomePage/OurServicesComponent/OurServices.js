@@ -6,6 +6,8 @@ import Services3 from '../../../assets/ServicePage/FullStack Dev.mp4';
 import Services4 from '../../../assets/ServicePage/Digital Marketing.mp4';
 import Services5 from '../../../assets/ServicePage/Marketing Analysis.mp4';
 import { useNavigate } from 'react-router-dom';
+import { useRef } from 'react';
+import { useEffect } from 'react';
 
 const servicesData = [
     { videoSource: Services1, heading: 'Creative Design', text: 'Our creative services shape captivating realities. With a visionary approach and awe-inspiring execution, we join you in weaving narratives through pixels, words, and brushstrokes.' },
@@ -34,7 +36,7 @@ function OurServices() {
                         <div className='text-container'>
                             <h2 className='service-team-heading'>{service.heading}</h2>
                             <div className='video-container2'>
-                                <video className='service-video2' loop playsinline disablepictureinpicture preload="metadata" autoPlay muted>
+                                <video className='service-video2' loop playsInline disablePictureInPicture preload="metadata" autoPlay muted>
                                     <source src={service.videoSource} type='video/mp4' />
                                     <meta itemprop="name" content={"vishesh" + service.heading + ".png"} />
                                 </video>
@@ -42,7 +44,7 @@ function OurServices() {
                             <p className='service-team-text'>{service.text}</p>
                         </div>
                         <div className='video-container1'>
-                            <video className='service-video' loop playsinline disablepictureinpicture preload="metadata" autoPlay muted>
+                            <video className='service-video' loop playsInline disablePictureInPicture preload="metadata" autoPlay muted>
                                 <source src={service.videoSource} type='video/mp4' />
                                 <meta itemprop="name" content={"vishesh" + service.heading + ".png"} />
                             </video>
