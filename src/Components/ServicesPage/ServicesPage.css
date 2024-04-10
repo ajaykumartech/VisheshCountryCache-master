@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Satoshi-light;
+  src: url(../../../public/Satoshi-Light.otf);
+}
+
+@font-face {
+  font-family: Satoshi;
+  src: url(../../../public/Satoshi-Regular.otf);
+}
+
+@font-face {
+  font-family: Satoshi-med;
+  src: url(../../../public/Satoshi-Medium.otf);
+}
+
+.services-row {
+  margin-right: 0px;
+}
+
+.heading-work {
+  text-align: center;
+  color: var(--text-icon-light-heading, #131a27);
+  font-family: Satoshi;
+  font-size: calc(2rem + 1.9vw);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}

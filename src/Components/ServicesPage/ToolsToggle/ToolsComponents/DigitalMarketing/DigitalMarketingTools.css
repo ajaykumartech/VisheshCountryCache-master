@@ -1,0 +1,208 @@
+.digital-logos-sections {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 2rem 15%;
+}
+
+.digital-logos-section,
+.digital-logos-section2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    gap: 10rem;
+}
+
+.digital-logos-section-col {
+    background-color: transparent;
+}
+.googleConsole{
+    width: 10vw;
+}
+
+.digital-logos-image3{
+    width: 10vw;
+}
+.webflow{
+    width: 8vw;
+}
+.wix{
+    width: 6vw;
+}
+
+@media (max-width:1820px) {
+
+    .digital-logos-section {
+        gap: 6rem;
+    }
+}
+
+@media (max-width:1700px) {
+    .digital-logos-section {
+        gap: 5rem;
+    }
+}
+
+@media (max-width:1600px) {
+    .digital-logos-sections {
+        margin: 3rem 10%;
+    }
+}
+
+@media (max-width:1370px) {
+    .digital-logos-sections {
+        margin: 3rem 4%;
+    }
+
+    .digital-logos-section {
+        gap: 2.5rem;
+    }
+
+    .digital-logos-section2 {
+        gap: 10rem;
+    }
+}
+
+@media (max-width:1086px) {
+    .digital-logos-sections {
+        margin: 3rem 4%;
+    }
+
+    .digital-logos-section {
+        gap: 2.5rem;
+    }
+
+    .digital-logos-section2 {
+        gap: 5rem;
+    }
+
+    .digital-logos-img1 {
+        max-width: 100%;
+        width: 50%;
+    }
+
+    .digital-logos-img1 {
+        max-width: 100%;
+        width: 40%;
+    }
+
+    .digital-logos-section-col {
+        width: 21.4%;
+    }
+}
+
+
+@media (max-width:1040px) {
+    .digital-logos-sections {
+        margin: 1rem 0% 1rem;
+    }
+
+    .digital-logos-img {
+        max-width: 150%;
+        width: 200%;
+    }
+
+    .digital-logos-img1 {
+        max-width: 100%;
+        width: 50%;
+    }
+
+    .digital-logos-section {
+        gap: 2rem;
+    }
+
+    .digital-logos-section-col {
+        width: 15%;
+    }
+    .digital-logos-section3{
+        margin: 3vw;
+    }
+    .digital-logos-image3{
+        width: 13vw;
+    }
+    .webflow{
+        width: 13vw;
+    }
+    .wix{
+        width: 7vw;
+    }
+}
+
+
+
+@media (max-width:810px) {
+    .digital-logos-section {
+        gap: 3rem;
+    }
+
+    .digital-logos-section2 {
+        gap: 5rem;
+    }
+    .digital-logos-sections {
+      margin: 2vw 5vw;
+    }
+    .googleConsole{
+        width: 14vw;
+    }
+}
+
+@media (max-width:600px) {
+    .digital-logos-section {
+        gap: 1rem;
+    }
+
+    .digital-logos-img {
+        width: 100%;
+    }
+
+    .digital-logos-section2 {
+        gap: 1rem;
+    }
+
+
+    .digital-logos-img {
+        max-width: 150%;
+        width: 150%;
+    }
+
+    .digital-logos-img1 {
+        max-width: 100%;
+        width: 50%;
+    }
+
+
+    .digital-logos-section-col {
+        width: 15%;
+    }
+   
+}
+
+@media (max-width:356px) {
+    .digital-logos-section {
+        gap: 0.5rem;
+    }
+
+    .digital-logos-section2 {
+        gap: 0rem;
+    }
+
+    .digital-logos-img {
+        max-width: 200%;
+        width: 180%;
+    }
+
+    .digital-logos-img1 {
+        max-width: 100%;
+        width: 30%;
+    }
+
+    .digital-logos-sections {
+        margin: 0;
+    }
+    .googleConsole{
+        width: 20vw;
+    }
+}

@@ -1,0 +1,139 @@
+@font-face {
+  font-family: Satoshi;
+  src: url(../../../public/Satoshi-Regular.otf);
+}
+
+@font-face {
+  font-family: Satoshi-med;
+  src: url(../../../public/Satoshi-Medium.otf);
+}
+
+.div-margins {
+  margin-top: 7% !important;
+  margin: 3%;
+}
+
+.career_banner {
+  border-radius: 24px;
+  margin: 0% 3%;
+}
+
+.smallText {
+  color: var(--text-icon-light-body, #33353a);
+  font-family: Satoshi;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.24px;
+  margin-bottom: 25px;
+}
+
+.mediumText {
+  color: var(--text-icon-light-body, #33353a);
+  font-family: Satoshi-med;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  max-width: 576px;
+}
+
+.bigText {
+  color: var(--text-icon-light-heading, #131a27);
+  font-family: Satoshi-med;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  max-width: 682px;
+}
+
+.normalText {
+  color: var(--text-icon-light-heading, #131a27);
+  font-family: Satoshi;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.slick-prev:before {
+  content: none !important;
+}
+
+.slick-next:before {
+  content: none !important;
+}
+
+.slider_style {
+  display: inline-block !important;
+  vertical-align: middle !important;
+  width: 30%;
+  margin-top: -0.6%;
+}
+
+.career-page-form-section-div {
+  margin-top: 8%;
+  margin-left: 2%;
+  margin-bottom: 10%;
+}
+.career-image-css{
+  width: 100%;
+  border-radius: 24px;
+}
+
+/* Responsive Text Size */
+@media (max-width: 768px) {
+  .smallText {
+    font-size: medium;
+  }
+
+  .mediumText {
+    font-size: larger;
+  }
+
+  .bigText {
+    font-size: xx-large;
+  }
+
+  .normalText {
+    font-size: x-large;
+  }
+
+  .accordion-button {
+    font-size: large;
+  }
+
+  .career-page-row-section {
+    margin-right: 0;
+  }
+
+  .career-icons {
+    width: 4em !important;
+    margin: 1em;
+  }
+
+  .slick-prev:before {
+    content: none !important;
+  }
+
+  .slick-next:before {
+    content: none !important;
+  }
+
+  .div-margins {
+    margin: 3rem 3% 20% !important;
+  }
+
+  .career-page-form-section-div {
+    margin: 20% 0%;
+  }
+
+  .career-page-text-section {
+    padding: 0%;
+  }
+  .career-image-css{
+    border-radius: 16px;
+  }
+}

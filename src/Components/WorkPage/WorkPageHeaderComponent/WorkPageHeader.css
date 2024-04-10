@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Satoshi-light;
+    src: url(../../../../public/Satoshi-Light.otf);
+}
+
+@font-face {
+    font-family: Satoshi;
+    src: url(../../../../public/Satoshi-Regular.otf);
+}
+
+@font-face {
+    font-family: Satoshi-med;
+    src: url(../../../../public/Satoshi-Medium.otf);
+}
+
+.WorkPageHeader-container {
+    padding: 0% 3.2%;
+    overflow: hidden;
+    padding-top: 3.5vw;
+}
+
+.WorkPageHeader-container-row-col-1 {
+    width: 50%;
+    padding-right: 20%;
+
+}
+
+.WorkPageHeader-container-row-col-2 {
+    width: 50%;
+}
+
+
+@media (max-width:1625px) {
+    .WorkPageHeader-container {
+        padding-top: 55px;
+    }
+}
+
+@media (max-width:768px) {
+    .WorkPageHeader-container-row-col-1 {
+        padding-right: 0px;
+        width: 100%;
+    }
+
+    .WorkPageHeader-container-row-col-2 {
+
+        width: 100%;
+        padding-right: 2%;
+
+    }
+
+    .ServicesPage-Header-Sub {
+        text-align: left !important;
+    }
+
+}
+
+@media (max-width:425px) {
+
+    .WorkPageHeader-container {
+        padding-top: 30px;
+    }
+}

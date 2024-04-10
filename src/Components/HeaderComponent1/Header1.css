@@ -1,0 +1,13 @@
+.main-heading1 {
+    position: absolute;
+    margin: 0px 3.5rem;
+    background-color: transparent;
+    width: 90%;
+}
+
+.main-logo {
+    width: 313px;
+    margin: 1.5rem 0rem;
+    background-color: transparent;
+    cursor: pointer;
+}

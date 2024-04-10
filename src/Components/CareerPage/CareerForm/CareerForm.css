@@ -1,0 +1,201 @@
+@font-face {
+  font-family: Satoshi;
+  src: url(../../../../public/Satoshi-Regular.otf);
+}
+
+@font-face {
+  font-family: Satoshi-med;
+  src: url(../../../../public/Satoshi-Medium.otf);
+}
+
+
+
+.form-heading {
+  color: var(--text-icon-light-heading, #131a27);
+  font-family: Satoshi-medium;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  margin-bottom: 2rem;
+}
+
+
+.form-row {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.career-page-form-input,
+select {
+  flex: 1;
+  border: none !important;
+  border-bottom: 1px solid #33353a !important;
+  padding: 40px 0px 20px;
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0px;
+}
+
+.career-page-form-input:hover,
+.career-page-form-input:active {
+  border: none;
+}
+
+.form-image {
+  height: 96vh;
+  width: 100%;
+}
+
+.placeholder {
+  background-color: transparent !important;
+}
+
+/* Adjustments for select input */
+.custom-select {
+  position: relative;
+}
+
+.custom-select select {
+  width: calc(100% - 2px);
+  border-bottom: 1px solid #33353a !important;
+  padding: 30px 0px;
+}
+
+.select-placeholder {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+  color: var(--Grey-400, #98a2b3) !important;
+  font-family: Satoshi;
+  font-size: 24px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.24px;
+}
+
+.file-placeholder {
+  color: var(--Grey-400, #98a2b3) !important;
+  font-family: Satoshi;
+  font-size: 24px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.24px;
+}
+
+.file-input {
+  position: relative;
+  width: calc(100% - 2px);
+  border-bottom: 1px solid #33353a !important;
+  padding: 30px 0px;
+}
+
+.file-input .file {
+  position: absolute;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  width: 100%;
+}
+
+.career-page-form-input {
+  outline: none;
+}
+
+.career-page-form-input:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.file-input .file-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.career-page-form-input::placeholder,
+input {
+  color: var(--Grey-400, #98a2b3) !important;
+  font-family: Satoshi;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.24px;
+}
+
+@media (max-width: 1128px) {
+
+  .career-page-form-input,
+  select {
+    padding: 18px 0px !important;
+  }
+
+  .file-input {
+    padding: 18px 0px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .image-section {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .ToastCareer {
+    margin-top: 3%;
+  }
+
+  .career-page-form-input,
+  select {
+    padding: 23px 0px !important;
+  }
+
+  .file-input .file {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  .form-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .career-page-form-section-com {
+    padding: 0px 1.5rem;
+  }
+
+  .form-heading {
+    margin-bottom: 0rem;
+  }
+}
+
+@media (max-width: 568px) {
+
+  .career-page-form-input::placeholder,
+  .select-placeholder,
+  .file-placeholder {
+    font-size: 18px !important;
+  }
+
+  .career-page-form-input,
+  select {
+    padding: 10px;
+  }
+
+  .file-input .file {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+}

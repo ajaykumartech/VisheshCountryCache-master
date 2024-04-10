@@ -1,0 +1,184 @@
+@font-face {
+    font-family: Satoshi;
+    src: url(../../../public/Satoshi-Regular.otf);
+}
+
+@font-face {
+    font-family: Satoshi-medium;
+    src: url(../../../public/Satoshi-Medium.otf);
+}
+
+.video4 {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.video1 {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.control-icon-div {
+    position: absolute;
+    margin-top: 6vh;
+    right: 0%;
+    background-color: transparent;
+    display: none;
+    z-index: 1;
+}
+
+.video-container:hover .control-icon-div {
+    display: flex !important;
+    gap: 1rem;
+}
+
+.control-icon {
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    background-color: transparent;
+}
+
+/* Optionally, you can hide controls */
+.video1::-webkit-media-controls,
+.video4::-webkit-media-controls,
+.video1::-webkit-media-controls-enclosure,
+.video4::-webkit-media-controls-enclosure,
+.video1::-webkit-media-controls-panel,
+.video4::-webkit-media-controls-panel,
+.video1::-webkit-media-controls-overlay-container,
+.video4::-webkit-media-controls-overlay-container,
+.video1::-webkit-media-controls-start-playback-button,
+.video4::-webkit-media-controls-start-playback-button {
+    display: none !important; /* Hide the media controls */
+    /* pointer-events: none; */
+}
+
+/**       heading  Scrolling         */
+.scroll-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    margin: 15rem 0px 0rem;
+}
+
+@keyframes scroll1 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.vishesh-scroll-heading {
+    color: #444444;
+    font-family: Satoshi-medium;
+    font-size: calc(4rem + 6vw);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 0;
+}
+
+.heading-scroll-img {
+    width: 8rem;
+    margin-top: -3rem;
+}
+
+@keyframes scroll2 {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .video-container4 {
+        width: 238px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    .scroll-container {
+        margin: 8rem 0px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .video1 {
+        height: auto;
+        object-fit: content;
+    }
+}
+
+@media only screen and (max-width: 825px) {
+    .video-container4 {
+        width: 200px;
+        height: 80px;
+    }
+
+    .scroll-container {
+        margin: 6rem 0px;
+    }
+
+    .heading-scroll-img {
+        width: 3.8rem;
+        margin-top: -25px;
+    }
+
+    .control-icon-div {
+        margin-top: 2rem;
+    }
+
+    .control-icon {
+        width: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .video-container4 {
+        width: 200px;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .vishesh-scroll-heading {
+        font-size: calc(2rem + 2vw);
+        margin: 0px;
+    }
+
+    .heading-scroll-img {
+        width: 1.6rem;
+        margin-top: -0.8vh;
+    }
+    .video1 {
+        height: 27vh;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .video1 {
+        height: 25vh;
+    }
+}
+
+@media only screen and (max-width: 374px) {
+    .video1 {
+        height: 22vh;
+    }
+}
+
+@media only screen and (max-width: 324px) {
+    .video1 {
+        height: auto;
+    }
+}

@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Satoshi-med;
+    src: url(../../../../public/Satoshi-Medium.otf);
+}
+
+.StoryVisionFuture {
+    padding: 0% 3.2%;
+}
+
+.StoryVisionFuture-h5 {
+    color: var(--text-icon-light-heading, #131A27);
+    font-family: Satoshi-med;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.StoryVisionFuture-p {
+    color: var(--text-icon-light-body, #33353A);
+    font-family: Satoshi;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.24px;
+}
+
+.StoryRow,
+.VisionRow {
+    border-bottom: 1px solid var(--Grey-400, #98A2B3);
+}
+
+.StoryRow,
+.VisionRow,
+.FutureRow {
+    padding: 45px 0px;
+}
+
+.StoryVisionFuture-Row-Col-1 {
+    width: 40%;
+}
+
+.StoryVisionFuture-Row-Col-2 {
+    width: 60%;
+}
+
+@media (max-width:978px) {
+    .StoryVisionFuture-Row-Col-1 {
+        width: 20%;
+    }
+
+    .StoryVisionFuture-Row-Col-2 {
+        width: 80%;
+    }
+}
+
+@media (max-width:738px) {
+    .StoryVisionFuture-Row-Col-1 {
+        width: 25%;
+    }
+
+    .StoryVisionFuture-Row-Col-2 {
+        width: 75%;
+    }
+}
+
+@media (max-width:628px) {
+    .StoryVisionFuture-Row-Col-1 {
+        width: 100%;
+    }
+
+    .StoryVisionFuture-Row-Col-2 {
+        width: 100%;
+    }
+}
+
+@media (max-width:475px) {
+    .StoryVisionFuture-h5 {
+        font-size: 2.5rem;
+    }
+
+    .StoryVisionFuture-p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width:425px) {
+    .StoryVisionFuture-h5 {
+        font-size: 2rem;
+    }
+
+    .StoryVisionFuture-p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width:320px) {
+    .StoryVisionFuture-h5 {
+        font-size: 1.8rem;
+    }
+
+    .StoryVisionFuture-p {
+        font-size: 1.1rem;
+    }
+}

@@ -1,0 +1,187 @@
+@font-face {
+  font-family: Satoshi;
+  src: url(../../../../public/Satoshi-Regular.otf);
+}
+
+@font-face {
+  font-family: Satoshi-medium;
+  src: url(../../../../public/Satoshi-Medium.otf);
+}
+
+.team-heading-sections {
+  margin: 2rem 4rem 10rem;
+}
+
+.work-section-heading {
+  text-align: justify;
+}
+
+.work-text-lines,
+.work-text-lines2 {
+  display: flex;
+  color: #000;
+  font-family: Satoshi;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  font-size: calc(4.5rem + 3vw);
+  padding: 0px;
+}
+
+.work-text-lines2 {
+  display: none;  
+}
+
+.work-with-us-btn {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.video-container4 {
+  width: 260px;
+  height: 106px;
+  border-radius: 50px;
+  overflow: hidden;
+  margin: 2.3rem 10px 28px;
+}
+
+.video-container5 {
+  width: 350px;
+  height: 100px;
+  border-radius: 50px;
+  overflow: hidden;
+  margin: 3.2rem 10px 28px;
+}
+
+.video5 {
+  position: relative;
+  top: -190%;
+  width: 326px;
+  height: 393px;
+  transform: rotateZ(-90deg);
+}
+
+@media only screen and (max-width: 1861px) {
+  .work-text-lines {
+    font-size: calc(4rem + 3vw);
+  }
+
+  .video-container4 {
+    margin: 2.5rem 10px 0px;
+  }
+
+  .video-container5 {
+    margin: 2.5rem 10px 0px;
+  }
+}
+
+@media only screen and (max-width: 1730px) {
+  .work-text-lines {
+    font-size: calc(3.5rem + 3vw);
+  }
+
+  .video-container4 {
+    margin: 1rem 10px 0px;
+  }
+
+  .video-container5 {
+    margin: 1rem 10px 0px;
+  }
+}
+
+@media only screen and (max-width: 1605px) {
+  .work-text-lines {
+    font-size: calc(3rem + 3vw);
+  }
+}
+
+@media only screen and (max-width: 1478px) {
+  .work-text-lines {
+    font-size: calc(3.5rem + 2.5vw);
+  }
+
+  .video-container4 {
+    height: 90px;
+    width: 200px;
+  }
+
+  .video-container5 {
+    height: 90px;
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 1315px) {
+  .work-text-lines {
+    font-size: calc(3rem + 2.5vw);
+  }
+}
+
+@media only screen and (max-width: 1205px) {
+  .work-text-lines {
+    font-size: calc(2.5rem + 2.5vw);
+  }
+
+  .video-container4 {
+    margin: 0rem 10px 0px;
+  }
+
+  .video-container5 {
+    margin: 0rem 10px 0px;
+  }
+
+  .work-text-lines {
+    line-height: 140%;
+  }
+}
+
+@media only screen and (max-width: 1094px) {
+  .work-text-lines {
+    font-size: calc(2.2rem + 2.2vw);
+  }
+}
+
+@media only screen and (max-width: 986px) {
+
+  .video-container4,
+  .video-container5 {
+    height: 60px;
+    width: 160px;
+  }
+}
+
+@media only screen and (max-width: 918px) {
+  .work-text-lines {
+    font-size: calc(2rem + 1.6vw);
+  }
+
+  .team-heading-sections {
+    margin: 5rem 2rem 5rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .work-text-lines2 {
+    display: block;
+    font-size: calc(1.5rem + 1.5vw);
+    text-align: center;
+  }
+
+  .work-text-lines {
+    display: none;
+  }
+
+  .team-heading-sections {
+    margin: 5rem 1rem 5rem;
+  }
+
+  .work-with-us-btn {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .work-text-lines {
+    font-size: calc(1.5rem + 1.8vw);
+  }
+}

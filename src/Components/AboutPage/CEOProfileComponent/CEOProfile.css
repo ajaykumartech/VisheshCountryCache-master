@@ -1,0 +1,252 @@
+@font-face {
+    font-family: Satoshi-light;
+    src: url(../../../../public/Satoshi-Light.otf);
+}
+
+@font-face {
+    font-family: Satoshi;
+    src: url(../../../../public/Satoshi-Regular.otf);
+}
+
+@font-face {
+    font-family: Satoshi-med;
+    src: url(../../../../public/Satoshi-Medium.otf);
+}
+
+.CEOProfileContainer {
+    width: 100%;
+    height: 530px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 1px solid var(--Neutral-900, #C1C3C7);
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.CEOImageContainer-col-1 {
+    border: 0px solid;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.CEOImageContainer-col-1 {
+    width: 30%;
+    border: 0px solid;
+    background-color: transparent;
+}
+
+.CEOInfoContainer-col-2 {
+    width: 70%;
+    border: 0px solid;
+    height: 100%;
+    padding: 80px 0px;
+    background-image: url(../../../assets/AboutPage/CEOBacground.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-color: transparent;
+}
+
+.CEOInfoContainer-col-2 div {
+    background-color: transparent;
+}
+
+.CEOName {
+    color: var(--text-icon-light-heading, #131A27);
+    font-family: Satoshi-med;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    background-color: transparent;
+}
+
+.CEOQualification {
+    color: var(--text-icon-light-body, #33353A);
+    font-family: Satoshi;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.24px;
+    background-color: transparent;
+}
+
+.Founder {
+    color: var(--text-icon-light-body, #33353A);
+    font-family: Satoshi-med;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.24px;
+    margin-bottom: 40px;
+    background-color: transparent;
+}
+
+.QuatationsSym {
+    background-color: transparent;
+}
+
+.CEODesciption {
+    color: var(--text-icon-light-body, #33353A);
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    font-style: italic;
+    letter-spacing: 0.24px;
+    background-color: transparent !important;
+    width: 80%;
+}
+
+.CEOPhoto {
+    border-radius: 50%;
+}
+
+@media (max-width:1440px) {
+    .CEOImageContainer-col-1 {
+        width: 40%;
+    }
+
+    .CEOInfoContainer-col-2 {
+        width: 60%;
+    }
+
+    .CEODesciption {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:1024px) {
+    .CEOImageContainer-col-1 {
+        width: 35%;
+    }
+
+    .CEOInfoContainer-col-2 {
+        width: 65%;
+    }
+
+    .CEODesciption {
+        font-size: 17px;
+    }
+
+    .CEOPhoto {
+        width: 230px;
+    }
+
+    .CEOName {
+        font-size: 38px;
+    }
+
+    .CEOQualification {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .CEOProfileContainer {
+        height: auto;
+    }
+
+    .CEOImageContainer-col-1 {
+        width: 100%;
+        height: 300px;
+        background-color: transparent;
+    }
+
+    .CEOInfoContainer-col-2 {
+        width: 100%;
+        background-size: 50%;
+        padding-top: 0;
+        height: auto;
+        background-size: 30%;
+    }
+
+    .CEODesciption {
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+        padding: 0 10%;
+    }
+
+    .CEOName {
+        font-size: 38px;
+        text-align: center;
+    }
+
+    .CEOQualification {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .Founder {
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+    .CEOPhoto {
+        width: 260px;
+    }
+
+    .QuatationsSym {
+        padding-left: 10%;
+
+    }
+}
+
+@media (max-width:575px) {
+    .CEOProfileContainer {
+        margin: 0 2%;
+        width: 96.5%;
+    }
+}
+
+@media (max-width:425px) {
+    .CEODesciption {
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+        padding: 0 10%;
+    }
+
+    .QuatationsSym {
+        padding-left: 8%;
+    }
+}
+
+@media (max-width:375px) {
+    .CEODesciption {
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+        padding: 0 10%;
+    }
+
+    .CEOName {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .CEOQualification {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .Founder {
+        text-align: center;
+        margin-bottom: 1%;
+    }
+
+    .CEOPhoto {
+        width: 240px;
+    }
+
+    .QuatationsSym {
+        padding-left: 10%;
+    }
+}

@@ -1,0 +1,76 @@
+.about-page-images-section2 {
+    display: none;
+}
+
+.about-page-images-section {
+    display: flex;
+    gap: 10px;
+    margin: 0rem 5rem 5rem;
+}
+
+.image-section-first-second {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.team-image {
+    border-radius: 10px;
+    width: 100%;
+}
+
+@media (max-width:1500px) {
+    .about-page-images-section {
+        margin: 0rem 3rem 5rem;
+    }
+}
+
+@media (max-width:1024px) {
+    .about-page-images-section {
+        margin: 0rem 1rem 1rem;
+        gap: 5px;
+    }
+
+    .image-section-first-second {
+        gap: 5px;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:768px) {
+    .about-page-images-section {
+        display: none;
+    }
+
+    .about-page-images-section2 {
+        display: block;
+        margin: 0rem 0.5rem 0.5rem;
+    }
+
+    .about-image-mobile {
+        display: flex;
+        gap: 7px;
+        margin: 7px 0px;
+    }
+
+    .team-image {
+        height: 25vh;
+    }
+
+    .team-image1 {
+        width: 50%;
+        border-radius: 10px;
+        height: 25vh;
+    }
+}
+
+@media (max-width:425px) {
+    .about-image-mobile {
+        gap: 3px;
+    }
+
+    .team-image,
+    .team-image1 {
+        height: 20vh;
+    }
+}

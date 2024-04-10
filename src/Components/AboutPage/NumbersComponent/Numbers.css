@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Satoshi-med;
+    src: url(../../../../public/Satoshi-Medium.otf);
+}
+
+@font-face {
+    font-family: Satoshi-reg;
+    src: url(../../../../public/Satoshi-Regular.otf);
+}
+
+.NumberContainer {
+    padding: 5% 3.2% 0%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.NumberContainer-h3 {
+    color: var(--text-icon-light-heading, #131A27);
+    font-family: Satoshi-med;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    margin-bottom: 64px;
+}
+
+.NumberContainer-h5 {
+    color: var(--text-icon-light-body, #33353A);
+    font-family: Satoshi-med;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.NumberContainer-p {
+    color: #000;
+    font-family: Satoshi-reg;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.24px;
+}
+
+@media (max-width:1024px) {
+    .NumberContainer-h3 {
+        font-size: 80px;
+    }
+
+    .NumberContainer-h5 {
+        font-size: 30px;
+    }
+
+    .NumberContainer p {
+        font-size: 18px;
+    }
+    .NumberContainer {
+        padding: 0% 3.2%;
+    }
+}
+
+@media (max-width:768px) {
+    .NumberContainer-h3 {
+        font-size: 60px;
+    }
+
+    .NumberContainer-h5 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .NumberContainer-p {
+        font-size: 18px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+}
