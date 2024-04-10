@@ -21,10 +21,22 @@ function HomePage() {
   const videoRef = useRef(null);
 
   useEffect(() => {
-    const videos = videoRef.current;
-    videos.addEventListener('loadedmetadata', () => {
-      videos.controls = false;
-    });
+    const video1 = videoRef.current;
+
+    const handleLoadedMetadata = () => {
+      video1.controls = false;
+    };
+
+    video1.addEventListener('loadedmetadata', handleLoadedMetadata);
+
+    // Clean up event listener when the component unmounts
+    return () => {
+      video1.removeEventListener('loadedmetadata', handleLoadedMetadata);
+    };
+  }, []); // Empty dependency array ensures that the effect runs only once after initial render
+
+
+  useEffect(() => {
     window.scrollTo(0, 0);
 
     if (window.innerWidth > 1000) {
@@ -90,7 +102,7 @@ function HomePage() {
             <img src={Sound} alt="play-icons" className="control-icon" onClick={toggleMute} />
           )}
         </div>
-        <video ref={videoRef} className='video1' loop playsinline disablepictureinpicture preload="metadata" autoPlay muted>
+        <video ref={videoRef} className='video1' loop playsInline disablePictureInPicture preload="metadata" autoPlay muted>
           {window.innerWidth >= 1600 ? <source src={VideoWeb} type='video/mp4' /> :
             <source src={VideoMobileVersion} type='video/mp4' />}
           <meta itemprop="name" content="visheshHome.mp4" />
